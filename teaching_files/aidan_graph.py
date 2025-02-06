@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plot
 import numpy as np
 import csv
+import datetime as dt
 
 result = {
     "Date" and 0:[],
@@ -23,10 +24,7 @@ with open("teaching_files/microsoft_stock_price.csv", newline="") as csvfile:
                 #print(i,v)
                 result[i].append(v)
 fig, ax = plot.subplots()
-b = []
-for count,v in enumerate(result[1]):
-    b.append(float(v))
-a = np.linspace(1986,2025,len(b))
+a = [dt.datetime.strptime(d, "%Y-%m-%d").date() for d in result[0]]
+b = [float(v) for v in result[1]]
 ax.plot(a,b)
-print(a[-1],b[-1])
 plot.show()
