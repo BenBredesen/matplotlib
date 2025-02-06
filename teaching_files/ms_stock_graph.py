@@ -54,6 +54,6 @@ a = np.linspace(1986,2025,len(b))
 #Show and save the graph
 def displayGraph():
   ax.plot(a,b)
-  fig.savefig("stock_price.png")
+  fig.savefig("teaching_files/stock_price.png")
   plt.show()
 displayGraph()
