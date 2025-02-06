@@ -17,7 +17,7 @@ result = {
 def loadData():
 
 
-  with open("microsoft_stock_price.csv", newline="") as csvfile:
+  with open("teaching_files/microsoft_stock_price.csv", newline="") as csvfile:
       read = csv.reader(csvfile, delimiter=' ', quotechar='|')
       for n,row in enumerate(read):
           if n == 0: continue
