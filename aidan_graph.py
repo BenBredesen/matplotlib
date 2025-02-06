@@ -22,11 +22,11 @@ with open("microsoft_stock_price.csv", newline="") as csvfile:
             for i,v in enumerate(resultArray):
                 #print(i,v)
                 result[i].append(v)
-a = []
+fig, ax = plot.subplots()
 b = []
 for count,v in enumerate(result[1]):
-    a.append(count)
     b.append(float(v))
-fig, ax = plot.subplots()
+a = np.linspace(1986,2025,len(b))
 ax.plot(a,b)
+print(a[-1],b[-1])
 plot.show()
