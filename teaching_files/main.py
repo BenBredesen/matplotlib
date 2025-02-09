@@ -38,7 +38,7 @@ def koch_snowflake(order, scale=10):
 
 
 
-x, y = koch_snowflake(order=2)
+x, y = koch_snowflake(order=5)
 
 plt.figure(figsize=(8, 8))
 plt.axis('equal')
