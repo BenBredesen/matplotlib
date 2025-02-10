@@ -15,6 +15,6 @@ for color in ['tab:blue', 'tab:orange', 'tab:green']:
     ax.scatter(x, y, c=color, s=scale, label=color,alpha=0.3, edgecolors='none') #Adds the scatter plot to the graph
 
 ax.legend()
-ax.grid(True)
+ax.grid()
 plt.savefig('practice_problems/scatter_plot/scatter_plot.png')
 plt.show()
