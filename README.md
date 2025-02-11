@@ -5,3 +5,4 @@
 
 
 [Slideshow link](https://docs.google.com/presentation/d/1LLhzO-piGECCuhPcW0TSX2TqPQifHX00rlrovkrq1f4/edit?usp=sharing)
+[Functions Cheatsheet](https://docs.google.com/document/d/1C2csLXGhLswhR-mtBGspNwelbx6YlEPEVA9pxTU991I/edit?usp=sharing)

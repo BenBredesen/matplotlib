@@ -32,8 +32,7 @@ loadData()
 #Setup the graph
 fig, ax = plt.subplots()
 def graphSetup():
-  ax.set(xlabel='Date (year)', ylabel='Stock Price (USD)',
-        title='Microsoft Stock Price Over Time')
+  ax.set(xlabel='Date (year)', ylabel='Stock Price (USD)',title='Microsoft Stock Price Over Time')
   ax.grid()
   ax.set_yscale('linear')
 graphSetup()
@@ -53,7 +52,8 @@ a = np.linspace(1986,2025,len(b))
 
 #Show and save the graph
 def displayGraph():
-  ax.plot(a,b)
+  # ax.plot(a,b)
+  ax.bar('Yes',100,color='blue')
   fig.savefig("teaching_files/stock_price.png")
   plt.show()
 displayGraph()
