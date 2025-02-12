@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+#Can you
+
 #Setup the chart
 fig, (ax1,ax2) = plt.subplots(2)
 ax1.set(ylabel='Y-axis Label',title='Graph Title')
@@ -20,5 +22,5 @@ ax1.plot(x1,y1)
 ax2.plot(x1,y1,label='Data 1')
 ax2.plot(x1,y2,label='Data 2')
 ax2.legend(loc='best', fontsize='small')
-plt.savefig('practice_problems/basic_practice/setup_practice.png')
+plt.savefig('practice_problems/double_graphs/double_graphs.png')
 plt.show()

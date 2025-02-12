@@ -62,6 +62,7 @@ def convertData(data):
     return converted
 data = convertData(data)
 
+#Your Task:
 #Now, write a script to convert this into a graph. You can graph any of these data points versus any other. Some of the framework is given.
 fig, ax = plt.subplots()
 ax.set(xlabel='X-axis Label', ylabel='Y-axis Label',title='Graph Title')
