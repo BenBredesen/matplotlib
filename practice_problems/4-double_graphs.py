@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-#Can you
+#Can you make one window have 4 graphs? For an extra challenge, can you make one of them a scatter plot and one of them a bar chart?
 
 #Setup the chart
 fig, (ax1,ax2) = plt.subplots(2)
@@ -22,5 +22,5 @@ ax1.plot(x1,y1)
 ax2.plot(x1,y1,label='Data 1')
 ax2.plot(x1,y2,label='Data 2')
 ax2.legend(loc='best', fontsize='small')
-plt.savefig('practice_problems/double_graphs/double_graphs.png')
+plt.savefig('practice_problems/4-double_graphs.png')
 plt.show()

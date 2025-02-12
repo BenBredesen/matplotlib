@@ -12,9 +12,9 @@ for color in ['tab:blue', 'tab:orange', 'tab:green']:
     n = 750 #Number of data points
     x, y = np.random.rand(2, n) #Generates two lists of length n of random numbers from 0-1
     scale = 200.0 * np.random.rand(n) #Generates a random scale for each point
-    ax.scatter(x, y, c=color, s=scale, label=color,alpha=0.3, edgecolors='none') #Adds the scatter plot to the graph
+    ax.scatter(x, y, c=color, label=color,s=scale,alpha=0.3) #Adds the scatter plot to the graph and the legend
 
 ax.legend()
 ax.grid()
-plt.savefig('practice_problems/scatter_plot/scatter_plot.png')
+plt.savefig('practice_problems/3-scatter_plot.png')
 plt.show()

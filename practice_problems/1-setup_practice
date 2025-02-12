@@ -29,5 +29,5 @@ y=[0,1,3,9,2,6,8]
 
 #Put the data on the graph
 ax.plot(x,y)
-plt.savefig('practice_problems/basic_practice/setup_practice.png')
+plt.savefig('practice_problems/1-setup_practice.png')
 plt.show()

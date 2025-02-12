@@ -79,5 +79,5 @@ x,y = analyzeData()
 
 #Plot the data
 ax.plot(x,y)
-plt.savefig('practice_problems/data_vis/data_vis.png')
+plt.savefig('practice_problems/2-data_vis.png')
 plt.show()
