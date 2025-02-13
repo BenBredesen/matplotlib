@@ -23,6 +23,7 @@ with open("teaching_files/microsoft_stock_price.csv", newline="") as csvfile:
             for i,v in enumerate(resultArray):
                 #print(i,v)
                 result[i].append(v)
+                
 fig, ax = plot.subplots()
 a = [dt.datetime.strptime(d, "%Y-%m-%d").date() for d in result[0]] # thanks to https://stackoverflow.com/questions/9627686/plotting-dates-on-the-x-axis for helping with datetime stuff
 b = [float(v) for v in result[2]]
